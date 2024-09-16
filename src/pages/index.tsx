@@ -8,7 +8,6 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
-      {/* rewrite this in TailwindCSS */}
       <div className="font-sans text-center">
         <div className="w-64 h-auto rounded-md border-2 border-black border-solid">
           <div className="mb-4">
@@ -54,9 +53,9 @@ export default function Home() {
               </a>
             </p>
 
-              <button className="bg-none rounded-lg border-2 border-sky-400 border-solid font-sans pl-4 pr-4 pt-2 pb-2 mb-3">
-					      <a className="text-sky-400 font-bold" href="mailto:narmilas@proton.me?subject=Mail from CodePen profile card" target="_blank">Email</a>
-				      </button>
+            <button className="bg-none rounded-lg border-2 border-sky-400 border-solid font-sans pl-4 pr-4 pt-2 pb-2 mb-3">
+              <a className="text-sky-400 font-bold" href="mailto:narmilas@proton.me?subject=Mail from CodePen profile card" target="_blank">Email</a>
+            </button>
           </div>
         </div>
       </div>
